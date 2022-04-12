@@ -1,0 +1,2 @@
+# accordion-1-project
+This project was inspired by a YouTube tutorial which covered how to create an FAQ accordion. The font-family, background-colour  and questions have all been borrowed from the YouTube video. The answers, if copied from somewhere else, are indicated using asterisks. The JavaScript is my own original work as well as a lot of the CSS. This project demonstrates my knowledge of using JavaScript to toggle specific classes depending on when the end user clicks something. 
