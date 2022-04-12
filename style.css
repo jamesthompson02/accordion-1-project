@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css');
+
+@media screen and (min-width: 0px) {
+    body {
+        margin: 0px;
+        width: 100vw;
+        background-color: #1c1c1c;
+    }
+    #container {
+        width: 100%;
+        height: 100%;
+        padding-bottom: 2rem;
+        font-family: 'Quicksand';
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    section {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .accordion-webpage-title {
+        font-size: 3rem;
+        margin: 2rem 0rem 2rem 0rem;
+    }
+    .faq {
+        width:50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-bottom: 2px solid #fff;
+    }
+    .question {
+        width: 100%;
+        height: 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        cursor: pointer;
+    }
+    .question h3 {
+        font-size: 1.3rem;
+    }
+    .answer {
+        display: none;
+        width: 100%;
+        padding-bottom: 0.5rem;
+    }
+    .display {
+        display: block;
+    }
+    .rotation {
+        transform: rotate(180deg);
+    }
+    .zero-height {
+        height: 0px;
+    }
+}
